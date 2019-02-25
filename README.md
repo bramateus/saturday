@@ -1,2 +1,0 @@
-# saturday
-Only knowledge
