@@ -1,0 +1,122 @@
+.btn-hover {
+    position: relative;
+    background-color: red;
+    border: none;
+/*    padding: 20px;
+    width: 200px;*/
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn-hover:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #d5991d;
+   color:#000;
+}
+
+.btn-hover:after {
+    content: "";
+    background: #004060;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.btn-hover:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+/* EFEITO REFLEXO BUTTON */
+
+.btn-glass-hover {
+  text-align: center;
+  display: inline-block;
+  /*padding: 10px 40px;*/
+  cursor: pointer;
+  letter-spacing: 1px;
+  position:relative;
+  overflow:hidden;
+  margin: 0 20px;
+}
+
+.btn-glass-hover:before {
+  content: "";
+  position: absolute;
+  height: 170px;
+  width: 50px;
+  background : #fff;
+  left: -80px;
+  top: -50px;
+  transform: rotate(37deg);
+  transition: all .99s;
+  opacity: 0.5;
+}
+
+.btn-glass-hover:hover:before {
+  left:100%;
+}
+
+.reflexo {
+  position: absolute;
+  height: 170px;
+  width: 50px;
+  background : #fff;
+  left: -80px;
+  top: -50px;
+  transform: rotate(37deg);
+  opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************
+   Contact
+******************/
+label {
+  float: left;
+}
+
+.social-media {
+  padding-left: 0;
+}
+
+.contactform .social-media li {
+  display: inline-block;
+}
+
+.contactform .social-media li i {
+  color: #000;
+}
+
+.modal-hr {
+  width: 75%;
+}

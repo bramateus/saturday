@@ -1,0 +1,512 @@
+@media (min-width: 426px) and (max-width: 767px) {
+     body {
+       /* background-origin: content-box;
+        background: url('../img/bg_fundo_mdd.jpg') no-repeat center top;*/
+        zoom: 90%;
+    }
+
+     
+    @font-face {
+     font-family: AAA;
+     src: url('../fonts/Gotham-Black.otf');
+}
+    @font-face {
+     font-family: BBB;
+     src: url('../fonts/Gotham-Bold.otf');
+}
+    
+
+   h1 {
+      font: 34px AAA, Sans-serif;
+      font-style: oblique;
+}
+
+    h2  {
+      font: 30px AAA, Sans-serif;
+      text-transform: uppercase;
+    }
+
+    span {
+        font: 18px BBB, Sans-serif;
+
+    }
+
+
+
+    h2hg:after {
+      content: '';
+      display: block;
+      width: 25%;
+      height: 1.5px;
+      background: #000;
+      margin: 10px auto;
+    }
+
+    #lay:before {
+          content: '';
+      display: block;
+      width: 25%;
+      height: 1.5px;
+      background: #000;
+      margin: 10px auto;
+    }
+
+
+    .shadow {
+        /* formatação do box */
+        width:67%;
+        background:#fff;
+        border-radius:0px;
+        padding:10px;
+        padding-bottom: 40px;
+            
+        /* box shadow */
+        box-shadow: 0 2px 13px 3px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .icons ul {
+        list-style-type:none;
+        float: right;
+
+    }
+
+    .icons ul li {
+        display: tabll; 
+        padding: 0px 0px;
+        width: 45%;
+        float: left;
+ 
+
+    }
+
+    .icons ul li img {
+        display: inline-block; 
+        padding: 30px 25px
+    }
+
+
+    .conteudo-x {
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+.cifrao {
+    position: absolute;
+    width: 150px;
+    z-index: 999999;
+    left: 75%;
+    bottom: 0%;
+}
+
+
+.titulo-principal {
+    text-align: left;
+    margin:-160px 0 50px 0;
+
+}
+
+.losango-area span {
+    position: absolute; 
+    margin: -15px 0 0 22px; 
+    color: #fff; width: 
+    max-content; font-weight: bold
+
+}
+
+.first-button {
+    width: 100%; 
+    position: absolute; 
+    top: 50px;
+}
+
+.first-button a {
+    position: relative ;
+    width: 100%; 
+    font-size: 28px;
+    border: 3px solid #8f5d04; 
+    border-radius: 50px; 
+    padding: 2px 50px; 
+    color: #404040; 
+    font-weight: bolder; 
+    background-color: #fab523; 
+    z-index: 99999; 
+    text-decoration: none; 
+    background-image: linear-gradient(#ffd227, #d5991d);
+}
+
+
+.second-button a {
+    position: relative ;
+    width: 100%; 
+    font-size: 28px;
+    border: 3px solid #8f5d04; 
+    border-radius: 50px; 
+    padding: 2px 50px; 
+    color: #404040; 
+    font-weight: bolder; 
+    background-color: #fab523; 
+    z-index: 99999; 
+    text-decoration: none; 
+    background-image: linear-gradient(#ffd227, #d5991d);
+
+}
+
+
+
+
+#losango{
+    /* relative para nossos elementos não fugirem */
+    position:relative;
+    /* escolhemos o tamanho do nosso losango */
+    width: 8px;
+    height: 16px;
+}
+#losango::after{
+    /* content é OBRIGATÓRIO, se não tiver, o pseudo-elemento
+       não será renderizado no DOM. */
+    content:'';
+    position:absolute;
+    /* importante, a direção de alinhamento(bottom, top, right, left)
+       tem que ser declarada no mesmo sentido que a nossa borda "colorida"
+       o valor 70 é a metade da altura do losango, se o losango
+       estivesse deitado, seria metade da largura, 
+       e alinhado ao left+border-left "colorida" */
+    bottom: 8px;
+    border-bottom: 13px solid #f7b020;
+    border-left: 8px solid transparent;
+    border-right:8px solid transparent;
+}
+#losango::before{
+    content:'';
+    position: absolute;
+    /* alinha ao top, borda no top "colorida" */
+    top: 8px;
+    border-top: 13px solid #f7b020;
+    border-left: 8px solid transparent;
+    border-right:8px solid transparent;
+}
+
+
+
+
+
+
+    .capa {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_01.jpg') no-repeat center top;
+        /*height: 732px;*/
+        height: 962px;
+    }
+
+
+
+
+    .capa2 {
+        background-origin: content-box;
+        background: #fff url('../img/camada_1.jpg') no-repeat center top;
+        background-size: cover;
+        height: 415px;
+        /*height: 600px;*/
+
+    }
+
+
+
+
+
+
+
+    .page02 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_02.jpg') no-repeat center top;
+        height: 963px;
+    }
+    .page022 {
+        background-origin: content-box;
+        background: #fff no-repeat center top;
+        /*height: 805px;*/
+        height: 100%;
+    }
+
+
+
+
+    .page03 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_02.jpg') no-repeat center top;
+        height: 963px;
+    }
+    .page033 {
+        background-origin: content-box;
+        background: url('../img/pdf/dobra-3.jpg') repeat;
+        /*height: 805px;*/
+        height: 100%;
+        background-position: 147% 110%;
+    }
+
+    .page033 p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .page04 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_04.jpg') no-repeat center top;
+        height: 963px;
+    }
+    .page044 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/dobra-4.jpg') no-repeat center top;
+        height: 100%;
+        /*height: 805px;*/
+    }
+
+
+
+    .page05 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_05.jpg') no-repeat center top;
+        height: 963px;
+        margin-top: 30px;
+    }
+
+    .page06 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_06.jpg') no-repeat center top;
+        height: 963px;
+    }
+
+    .page07 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_02.jpg') no-repeat center top;
+        height: 963px;
+    }
+
+    .page08 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_08.jpg') no-repeat center top;
+        height: 1080px;
+        margin-top: 15px;
+    }
+
+    .page09 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_09.jpg') no-repeat center top;
+        height: 963px;
+    }
+
+
+
+    .pageLast {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/dobra-last.jpg') no-repeat center top;
+        /*height: 805px;*/
+        height: 100%;
+    }
+
+
+
+
+
+
+
+
+
+   /* .page05 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_pag_05.png') no-repeat center top;
+        height: 805px;
+    }
+    .page06 {
+        background-origin: content-box;
+        background: #fff url('../img/pdf/bg_pag_06.png') no-repeat center top;
+        height: 805px;
+    }*/
+
+    .box {
+        border-radius: 20px;
+        max-width: 420px;
+        right: 60px;
+
+
+    }
+
+    .box p {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px 30px;
+        text-align: center;
+    }
+
+    .box form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .dobra-a {
+        height: 250px;
+    }
+
+    .conteudo-a {
+        /*margin-top: 80px;*/
+        /*margin-bottom: unset;*/
+        
+    }
+
+    .conteudo-aa {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 90%;
+    }
+
+    .conteudo-bb {
+        width: 50%;
+        margin-top: -60px;
+    }
+
+    .conteudo-cc {
+        width: 50%;
+        margin-top: -180px;
+    }
+
+    .conteudo-dd {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .conteudo-ee {
+        width: 80%;
+        margin-top: 150px;
+    }
+
+    .conteudo-ff {
+        /*margin-top: 70px;*/
+        /*width: 40%;*/
+    }
+
+    .conteudo-gg {
+        width: 43%;
+    }
+
+    .conteudo-hh {
+        margin-top: 35%;
+        width: 70%;
+    }
+
+    .conteudo-ii {
+        margin-top: 50px;
+        width: 70%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .conteudo-c {
+        /*margin-top: 40px;*/
+        /*margin-bottom: 80px;*/
+        /*width: 95%;*/
+    }
+
+     .conteudo-d {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        /*width: 95%;*/
+    }
+
+    .conteudo-f {
+        padding: 50px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .desktop{
+        display: block !important;
+    }
+
+    .mobile{
+        display: none !important;
+    }
+
+    .barra-vermelha {
+        background-color: #df132c;
+        padding: 15px 0;
+        margin-top: 7px;
+    }
+
+
+    .btn-glass-hover {
+      text-align: center;
+      display: inline-block;
+      padding: 10px 40px;
+      cursor: pointer;
+      letter-spacing: 2px;
+      overflow:hidden;
+     
+    }
+
+    .btn-glass-hover:before {
+      content: "";
+      position: absolute;
+      height: 180px;
+      width: 50px;
+      background : #fff;
+      left: -560px;
+      top: -360px;
+      transform: rotate(37deg);
+      transition: all .3s;
+      opacity: 0.3;
+    }
+
+    .btn-glass-hover:hover:before {
+      left:100%;
+    }
+
+  .reflexo {
+  position: absolute;
+  height: 1800px;
+  width: 70px;
+  background : #fff;
+  left: -580px;
+  top: -300px;
+  transform: rotate(37deg);
+  opacity: 0.3;
+}
+
+    .left-custom {
+        left: 80%;
+    }
+
+
+}
